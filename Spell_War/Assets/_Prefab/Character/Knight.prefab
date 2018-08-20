@@ -1306,6 +1306,9 @@ MonoBehaviour:
   boots:
   - {fileID: 1519857426491604}
   properties: 
+  attackDamage: 0
+  attackRange: 2
+  speed: 2
 --- !u!137 &137154507853034578
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
