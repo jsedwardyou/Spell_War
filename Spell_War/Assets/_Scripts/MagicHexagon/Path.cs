@@ -9,5 +9,18 @@ public class Path : MonoBehaviour {
 
     public bool visited;
 
+    public void ChangeColor(Color color) {
+        SpriteRenderer sprite = this.GetComponent<SpriteRenderer>();
+        sprite.color = color;
+    }
+
+    public bool ContainsNodes(Node n1, Node n2) {
+        if ((Node1 == n1 || Node1 == n2) && (Node2 == n1 || Node2 == n2))
+        {
+            return true;
+        }
+        else
+            return false;
+    }
 }
  
