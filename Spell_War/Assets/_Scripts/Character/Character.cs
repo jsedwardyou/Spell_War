@@ -35,12 +35,14 @@ public class Character : CharacterProperty {
             case (Node.property)0:
                 if (num > -1) {
                     swords[num].SetActive(true);
+                    attackDamage = attackDamage * (num + 1);
                 }
                 break;
             case (Node.property)1:
                 if (num > -1)
                 {
                     boots[0].SetActive(true);
+                    speed = speed * (num + 1);
                 }
                 break;
             case (Node.property)2:

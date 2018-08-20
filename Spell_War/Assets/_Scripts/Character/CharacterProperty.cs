@@ -10,6 +10,7 @@ public abstract class CharacterProperty : MonoBehaviour {
 
     public List<Node.property> properties = new List<Node.property>();
 
+    public float attackDamage;
     public float attackRange;
     public float speed;
 }
